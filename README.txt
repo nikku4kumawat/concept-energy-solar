@@ -1,29 +1,48 @@
-# Concept Energy — Premium Static Website
+CONCEPT RAYS ENERGY — FULL MULTI-PAGE STATIC WEBSITE
 
-## Included
-- Responsive HTML/CSS/JS homepage
-- Concept Energy logo supplied in the assets folder
-- Supplied solar images used across hero, services, industries, projects and CTA areas
-- Responsive navigation with dropdowns
-- Scroll reveal animations
-- Hover effects
-- Reading progress bar
-- Back-to-top button
-- Floating WhatsApp, phone and location buttons
-- Solar consultation form demo interaction
+PAGE ANALYSIS
 
-## Run
-Open `index.html` directly in a browser, or use VS Code Live Server.
+1. SOLAR SOLUTIONS (8 pages; each has exactly 5 content sections)
+- Residential Rooftop EPC
+- Industrial Rooftop EPC
+- Ground Mount Solar
+- Grid Connected Solar
+- PPA Work
+- PM-KUSUM Projects
+- Solar Operation & Maintenance
+- Solar Investment
 
-## Important before production
-1. Replace the demo enquiry form handler with your backend, Formspree, email API, WhatsApp flow, etc.
-2. Verify all phone/email/address details with Concept Energy before launch.
-3. Replace illustrative project cards with actual company project information before publishing.
-4. Replace `#` social links with official profiles if available.
-5. Review and approve all service descriptions and claims with the company.
+2. INDUSTRIES (10 pages; each has exactly 5 content sections)
+- Residential
+- Hotels & Resorts
+- Commercial Buildings
+- Industries & Factories
+- Schools & Colleges
+- Hospitals & Healthcare
+- PGs & Hostels
+- Agriculture & Farms
+- Gardens & Outdoor Spaces
+- Shops & Showrooms
 
-## Main structure
-index.html
-css/style.css
-js/script.js
-assets/images/*
+3. CORE PAGES
+- Projects: portfolio, filters, case-study structure, project stats, CTA
+- Our Process: overview, 7-step timeline, coordination areas, process stats, CTA
+- Contact: enquiry form, business information, office location, contact routes, CTA
+
+HOME + ABOUT
+index.html and about.html were retained from the supplied package and were not rewritten. Their existing content/layout remains the basis for the site. The common JS now points the shared navigation to the new internal pages.
+
+COMMON COMPONENTS
+- Header and footer are rendered from js/script.js on every page.
+- Same Concept Rays Energy logo, colours and styling.
+- Floating WhatsApp, phone and location buttons are common.
+- Responsive navigation, scroll progress, reveal animations and back-to-top are common.
+
+SEO
+Every internal page has a unique title, description, keywords and canonical filename, plus semantic headings and descriptive image alt text. Content is based on the company material supplied for Concept Energy/Concept Rays Energy and avoids inventing project statistics.
+
+IMPORTANT
+Project images are supplied/illustrative images from the user's package. Replace project cards with verified company project names, locations, capacities, years and results before publishing. Verify all contact details and service scope with the company before launch.
+
+RUN
+Open index.html with VS Code Live Server or another local static server.
